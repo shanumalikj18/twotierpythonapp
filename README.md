@@ -1,2 +1,0 @@
-# twotierpythonapp
-dockerfile by shanu 
