@@ -23,8 +23,7 @@ services:
       start_period: 60s
 
   flaskapp:
-    build:
-      context: .
+    image : shanumalikj18/two-tier-flask-app:latest
     container_name: flaskapp
     environment:
       MYSQL_HOST: mysql
