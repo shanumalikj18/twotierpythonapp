@@ -5,8 +5,8 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Proxy settings for container
-#ENV http_proxy=http://192.168.15.200:3128
-#ENV https_proxy=http://192.168.15.200:3128
+ENV http_proxy=http://192.168.15.200:3128
+ENV https_proxy=http://192.168.15.200:3128
 
 # install required packages for system
 RUN apt-get update \
